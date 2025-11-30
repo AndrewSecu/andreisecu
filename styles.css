@@ -1005,9 +1005,9 @@ body {
 /* Contact Section */
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: var(--spacing-xl);
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -1174,6 +1174,14 @@ body {
     color: var(--text-secondary);
     text-decoration: none;
     transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.footer-links a svg {
+    width: 20px;
+    height: 20px;
 }
 
 .footer-links a:hover {
